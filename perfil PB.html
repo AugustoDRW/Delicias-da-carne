@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JS perfil.js" defer></script>
+    <title>Delicias da carne</title>
+<link rel="stylesheet" href="style PB.css">
+    <title>Document</title>
+</head>
+<body>
+   <div id="mainPerfil">
+
+    <img src="https://www.gov.br/cdn/sso-status-bar/src/image/user.png" alt="">
+    <p>Seja bem vindo</p>
+   </div>
+<div class="flexBanner inicio">Para fazermos seu cadastro precisamos de algumas informações<br>
+    por favor, responda o formulario
+</div>
+
+<a href="index.html" title="Home" id="voutar">Home</a>
+
+<div class="flexSepara">
+<div class="flexBanner">
+<form action="">
+    <h3>dados pessoais</h3>
+    <label for="">Nome:</label>
+<input type="text" id="nome"><br>
+<label for="">email:</label>
+<input type="text" id="email"><br>
+<label for="" >telefone:</label>
+<input type="text" id="telefone">
+
+
+<p id="erroL"></p>
+</form>
+</div>
+
+
+
+
+    <div class="flexBanner">
+    <form action="">
+        <h3 class="direita">O que gosta mais?</h3>
+        <label for="" id="inRadio">Preferencia por:</label>
+
+
+<div class="flexSepara">
+
+    <label for="" >Carnes exóticas</label>
+   <div class="radio" ></div>
+   <label for="">Carnes nobres</label>
+   <div class="radio"></div>
+   <label for="">ambos</label>
+   <div class="radio"></div>
+</div>
+<br>
+<label for="">carne favorita</label>
+<div class="flexSepara">
+   
+    <span class="selecionar"  >
+      
+        <div class="opcao" onmouseover="caixa()">selecionar</div>
+        </span>
+        <span class="opses" onmouseleave="Fcaixa()">
+        <div class="op1es">Bovina</div>
+        <div class="op2es">Suína</div>
+        <div class="op3es">Aves</div>
+        <div class="op4es">Frutos 
+            do Mar</div>
+        <div class="op5es">Outras</div>
+
+        </span>
+    </div>
+
+    <p id="erroD"></p>
+
+</form>
+
+</div>
+</div>
+
+
+
+
+<div class="flexSepara margin">
+    <div class="flexBanner">
+    <form action="">
+        <h3>contatos</h3>
+        <br><br>
+        <div style="width: 100%; display: flex;"> <div class="checkbox-all" ></div><label for="" >marcar todos</label></div>
+        <br>
+   <div style="display: flex; justify-content: center; width: 600px;">
+
+    <div class="checkbox"></div><label for="">SMS</label> 
+        <div class="checkbox" ></div><label for="">Email</label> 
+ 
+    <br>    <br>
+
+    <div class="checkbox"  ></div>  <label for="">Ligação</label> 
+    <div class="checkbox"></div><label for="">Whatsapp</label> 
+    <div class="checkbox" ></div> <label for="">sinal de fumaça</label>
+    </div>
+    <p id="erroEL"></p>
+
+    </form>
+    </div>
+
+    <div class="flexBanner">
+        <form action="">
+<h3>deixe seu recado</h3>
+
+
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<p id="erroED"></p>
+
+    </form>
+    
+    </div>
+    </div>
+
+
+
+   <div class="flexBanner"> <div id="botao" onclick="cadastrar()">cadastrar</div></div>
+   <!-- ////////////////////////// -->
+
+
+
+
+<!--  -->
+
+<div class="displayNone">
+
+
+
+<div class="checkbox-all" ></div>
+<div class="checkbox" ></div>
+<div class="checkbox" ></div>
+<div class="checkbox" ></div>
+  <div class="checkbox" ></div>
+  <div class="checkbox" ></div>
+
+<br><br>
+
+<div class="radio" ></div>
+<div class="radio"></div>
+<div class="radio"></div>
+<br><br>
+<input type="text" class="imput">  
+<br><br>
+
+<div class="flexBanner">
+<p class="pe">veja mais</p>
+<div class="vejaMaisAberto vejamais">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed accusantium saepe assumenda quaerat blanditiis quo officiis esse eum modi omnis qui, consequuntur maiores quam, quae, rerum ea. Fugiat, exercitationem. Impedit.</div>
+</div>
+
+
+<span class="selecionar"  >
+<div class="opcao" onmouseover="caixa()">Carne favorita</div>
+</span>
+<span class="opses" onmouseleave="Fcaixa()">
+<div class="op1es">outras</div>
+<div class="op2es">22222</div>
+<div class="op3es">33333</div>
+</span>
+
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa labore cumque quia laborum illo quaerat omnis pariatur totam magnam, aut amet ullam animi quod vel, veniam expedita, perferendis quis! Ipsam.
+</div>    
+
+</body>
+</html>

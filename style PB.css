@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100;200;300&family=Jim+Nightshade&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: #BEEBC0; */
+    background-color: rgb(49, 49, 49);
+
+   
+}
+:root{
+    --red: rgb(155, 0, 0)
+
+}
+.escondido{
+    display: none;
+}
+header{
+    top: 0px;
+    background-color: white;
+    display: flex;
+    width: 200px;
+    position: fixed;
+}
+header img{
+padding: 10px;
+    width: 95px;
+    border-radius: 50%;
+    background-color: var(--red);
+
+
+}
+header img:hover{
+    width: 100px;
+}
+header nav{
+  display: flex;
+flex-direction: column;
+  width: 300px;
+  height: 100vh;
+   justify-content: center;
+   align-items: center;
+   border-radius: 15px;
+   width: 200px;
+   height: 100vh;
+   margin-bottom: 40px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   margin-right: 60px;
+   color:white;
+
+
+}
+
+header nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red);
+    height: 50px;
+    margin: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+}
+header div {
+    padding: 5px;
+    position: fixed;
+    left: 0;
+    background-color: white;
+    border-end-end-radius: 60px;
+
+}
+main{
+    margin-top: 50px;
+    background-image: url("https://img.freepik.com/free-photo/raw-beef-steaks-with-spices-rosemary-flat-lay-top-view_2829-4878.jpg?w=900&t=st=1693958164~exp=1693958764~hmac=96fd7d332448db98cee6943f5b185115973d23f0a855c97f79ce506730a68dd7");
+    background-size: cover;
+    background-position: center;
+padding-top: 50px;
+display: flex;
+justify-content: center;
+border-bottom:4px var(--red) solid ;
+}
+main div {
+    text-align: center;
+    margin-top: 70px;
+    border-radius: 15px;
+    background-color: white;
+    width: 70%;
+    height: 500px;
+    color:var(--red);
+    margin-bottom: 50px;
+    
+}
+
+
+.marginh{
+    margin-left: 33px;
+}
+
+
+main span{
+    text-decoration: underline;
+}
+
+main p{
+    font-family:'Jim Nightshade', cursive;
+    position: relative;
+    top: 11px;
+    font-size: 40px;
+}
+main img{
+
+    width: 250px;
+    height: 250px;
+position: relative;
+top: 30px;
+border-radius: 50%;
+}
+
+
+
+
+
+.cardapio{
+
+    width: 100px;
+    height: 150px;
+    border: 1px solid var(--red);
+    margin-right: 25px;
+    margin-left: 25px;
+
+}
+
+.cardapio div{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.cardapio p{
+    width: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.banner{
+
+margin-top: 70px;
+}
+
+
+.banner nav{
+  align-self: center;
+    width: 900px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .cabeça, .pe{
+align-self: center;
+text-align: center;
+background-color: var(--red);
+display: flex;
+justify-content: center;
+align-items: center;
+align-items: center;
+width: 900px;
+height: 80px;
+border-radius: 10px 10px 0 0;
+color: white;
+font-family: 'Inter', sans-serif;
+font-weight: 300;
+font-size: 20px;
+}
+.pe{
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: center;
+}
+.flexBanner{
+    display: flex;
+    justify-content: center;
+
+}
+.vejaMaisAberto{
+    display: none;
+    transition: 1.5s linear;
+
+  }
+  
+ .vejaMais .ofertas{
+    background-color: white;
+    width: 900px;
+    padding-bottom: 70px;
+
+}
+
+.lateralD{
+    position: absolute;
+    background-color: black;
+    width: 70px;
+    height: 100;
+    right: 0px;
+    top: 750px;
+}
+.lateralE{
+    position: absolute;
+    background-color: black;
+    width: 70px;
+    height: 100;
+    left: 0px;
+    top: 750px;
+}
+
+footer{
+    margin-top: 70px;
+    background-color: black;
+    height: 350px;
+}
+
+footer #sobreNos{
+    background-color: var(--red);
+width: 100%;
+height: 60px;
+color: white;
+text-align: center;
+font-size: 40px;
+padding-top: 10px;
+}
+
+footer .flexBanner{
+
+    font-size: 30px;
+}
+
+.flexLado{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.flexLado h4{
+    color: white;
+    font-size: 50px;
+}
+.flexLado div{
+    color: var(--red);
+    font-size: 20px;
+
+}
+
+#ponta{
+    position: relative;
+    bottom: -38px;
+    background-color: white;
+}
+
+footer .direita{
+    text-align: right;
+}
+
+#mainPerfil{
+    background-color: var(--red);
+    width: 100%;
+    height: 400px;
+opacity: 0.7;
+border-bottom: 3px solid white;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+#mainPerfil img{
+    width: 200px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#mainPerfil p{
+    margin: 20px;
+    font-size: 50px;
+    font-family:'Jim Nightshade', cursive;
+    color: white;
+    text-decoration: solid;
+}
+
+.inicio{
+    color: white;
+    margin: 25px;
+    font-size: 20px;
+   text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+width: 600px;
+background-color: white;
+border: 1px solid var(--red);
+color: white;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border-bottom: 20px solid var(--red);
+padding-bottom: 10px;
+
+}
+
+form h3{
+padding-top: 10px;
+padding-bottom: 10px;
+border-bottom: 1px solid white;
+color: white;
+width: 100%;
+text-align: center;
+background-color: var(--red);
+font-family: 'Inter', sans-serif;
+font-weight: 300;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+
+
+
+
+.flexSepara{
+display: flex;
+width: 100%;
+justify-content: space-around;
+margin-bottom: 10px;
+
+color: black;
+
+
+}
+
+
+
+/* radio */
+#inRadio{
+    margin-top: 10px;
+}
+.radio {
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border: 1px solid black;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+
+
+  }
+
+  .radioMarqued {
+    background-color: var(--red); /* ou qualquer estilo que você desejar */
+  }
+/* fim radio */
+
+.displayNone{
+    display: none;
+}
+
+.flexBanner .flexSepara{
+    width: 100%;
+    height: 30px;
+ 
+}
+.flexBanner .flexSepara label{
+ padding-top: 5px;
+}
+label{
+    margin-bottom: 5px;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/* checkbox */
+
+.checkbox-all {
+    width: 20px;
+    height: 20px;
+    border:1px solid black;
+    border-radius: 20%;
+    cursor: pointer;
+    
+  }
+  .checkbox {
+    width: 20px;
+    height: 20px;
+    border:1px solid black;
+    border-radius: 20%;
+    cursor: pointer;
+    
+  }
+  .checkbox-half{
+    background-color: gray;
+  }
+  .checkboxMarqued {
+
+    background-color: var(--red);
+    border-radius: 20%;
+  }
+
+
+/* fim checkbox */
+
+
+/* select */
+
+.selecionar{
+    width: 400px;
+    height: 40px;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: var(--red);
+    border-radius: 10px;
+  }
+  .opcao{
+    width: 300px;
+    height: 20px;
+      border: 2px solid;
+      color: black;
+      text-align: center;
+      background-color: white;font-family: 'Inter', sans-serif;
+    
+  }
+  .op1es, .op2es ,.op3es, .opses{
+    display: none;
+    color: black;
+  }
+  .op1, .op2, .op3, .op4,.op5{
+      width: 300px;
+    height: 30px;
+      border: 1px solid;
+    display:block;
+    color: black;
+    text-align: center;
+    
+  }
+  .ops{
+    width: 300px;
+    border: 2px solid;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    color: black;
+    top:  695px;
+    font-family: 'Inter', sans-serif;
+    z-index: 1;
+
+    
+    
+  
+  }
+  
+
+/* fim select */
+
+.pePerfil, .pePerfilD,.pePerfilEF,.pePerfilED{
+    width: 602px;
+    height: 40px;
+    background-color: var(--red);
+    position: relative;
+    bottom: -38px;
+border-end-start-radius: 10px;
+border-end-end-radius: 10px;
+
+}
+
+.pePerfilD{
+    position: relative;
+    bottom: -48px;
+}
+
+.margin{
+margin-top: 100px;
+margin-left: 0px;
+
+}
+
+div label{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.pePerfilEF{
+    position: relative;
+    bottom: -95px;
+}
+
+textarea{
+    margin-top: 20px;
+    resize: none;
+}
+
+#botao{
+    width: 200px;
+    height: 60px;
+margin-top: 60px;
+margin-bottom: 60px;
+border:2px solid ;
+color: var(--red);
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Inter', sans-serif;
+background-color: white;
+font-weight: bold;
+cursor: pointer;
+}
+
+#botao:hover{
+    background-color: lightgray;
+}
+
+p{
+    color: var(--red);
+}
+
+#voutar{
+    position: fixed;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 30px;
+    top: 0;
+    left: 0;
+    border: 1px solid white;
+    background-color: lightgray;
+    color: var(--red);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+
+}
+
